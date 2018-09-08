@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593B098A1FF3446E00D8D7BF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B09891FF3446E00D8D7BF /* GameViewController.swift */; };
+		593B098C1FF3591C00D8D7BF /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B098B1FF3591C00D8D7BF /* EndViewController.swift */; };
+		593B098F1FF37BFE00D8D7BF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B098E1FF37BFE00D8D7BF /* Social.framework */; };
+		593B09911FF383FE00D8D7BF /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593B09901FF383FE00D8D7BF /* GoogleMobileAds.framework */; };
 		595B6E6E1FF3140C00759928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595B6E6D1FF3140C00759928 /* AppDelegate.swift */; };
 		595B6E701FF3140C00759928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595B6E6F1FF3140C00759928 /* ViewController.swift */; };
 		595B6E731FF3140C00759928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595B6E711FF3140C00759928 /* Main.storyboard */; };
 		595B6E751FF3140C00759928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595B6E741FF3140C00759928 /* Assets.xcassets */; };
 		595B6E781FF3140C00759928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595B6E761FF3140C00759928 /* LaunchScreen.storyboard */; };
+		5983051421446FFD00C46909 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5983051321446FFD00C46909 /* StoreKit.framework */; };
+		59FC82C91FF475FA0024EC8B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FC82C81FF475FA0024EC8B /* MessageUI.framework */; };
+		59FC82CB1FF490840024EC8B /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC82CA1FF490840024EC8B /* StoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593B09891FF3446E00D8D7BF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		593B098B1FF3591C00D8D7BF /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		593B098E1FF37BFE00D8D7BF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		593B09901FF383FE00D8D7BF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		595B6E6A1FF3140C00759928 /* Tappy Fingers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Fingers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		595B6E6D1FF3140C00759928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		595B6E6F1FF3140C00759928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,9 @@
 		595B6E741FF3140C00759928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		595B6E771FF3140C00759928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		595B6E791FF3140C00759928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5983051321446FFD00C46909 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		59FC82C81FF475FA0024EC8B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		59FC82CA1FF490840024EC8B /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5983051421446FFD00C46909 /* StoreKit.framework in Frameworks */,
+				59FC82C91FF475FA0024EC8B /* MessageUI.framework in Frameworks */,
+				593B09911FF383FE00D8D7BF /* GoogleMobileAds.framework in Frameworks */,
+				593B098F1FF37BFE00D8D7BF /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		593B098D1FF37BFE00D8D7BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5983051321446FFD00C46909 /* StoreKit.framework */,
+				59FC82C81FF475FA0024EC8B /* MessageUI.framework */,
+				593B09901FF383FE00D8D7BF /* GoogleMobileAds.framework */,
+				593B098E1FF37BFE00D8D7BF /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		595B6E611FF3140C00759928 = {
 			isa = PBXGroup;
 			children = (
 				595B6E6C1FF3140C00759928 /* Tappy Fingers */,
 				595B6E6B1FF3140C00759928 /* Products */,
+				593B098D1FF37BFE00D8D7BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +86,9 @@
 			children = (
 				595B6E6D1FF3140C00759928 /* AppDelegate.swift */,
 				595B6E6F1FF3140C00759928 /* ViewController.swift */,
+				593B09891FF3446E00D8D7BF /* GameViewController.swift */,
+				59FC82CA1FF490840024EC8B /* StoreViewController.swift */,
+				593B098B1FF3591C00D8D7BF /* EndViewController.swift */,
 				595B6E711FF3140C00759928 /* Main.storyboard */,
 				595B6E741FF3140C00759928 /* Assets.xcassets */,
 				595B6E761FF3140C00759928 /* LaunchScreen.storyboard */,
@@ -136,7 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59FC82CB1FF490840024EC8B /* StoreViewController.swift in Sources */,
+				593B098C1FF3591C00D8D7BF /* EndViewController.swift in Sources */,
 				595B6E701FF3140C00759928 /* ViewController.swift in Sources */,
+				593B098A1FF3446E00D8D7BF /* GameViewController.swift in Sources */,
 				595B6E6E1FF3140C00759928 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +312,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C66WPHYLGP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Tappy Fingers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iDarkDuck.Tappy-Fingers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +332,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C66WPHYLGP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Tappy Fingers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iDarkDuck.Tappy-Fingers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
