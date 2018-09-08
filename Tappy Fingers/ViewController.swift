@@ -34,14 +34,18 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         bannerView.delegate = self
         //bannerView.adUnitID = "ca-app-pub-6997426467599456/7491376826"
         //test 2
-        bannerView.adUnitID = "ca-app-pub-6997426467599456/7305621400"
+        //bannerView.adUnitID = "ca-app-pub-6997426467599456/7305621400"
         //FOR DEBUG ONLY
         //bannerView.adUnitID = "ca-app-pub-3940256099942544/6300978111"
         //
-        bannerView.adSize = kGADAdSizeSmartBannerPortrait
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        
+        //Removed for purchase code 6min 10sec
+//        bannerView.adUnitID = "ca-app-pub-6997426467599456/7491376826"
+//        bannerView.adSize = kGADAdSizeSmartBannerPortrait
+//        bannerView.rootViewController = self
+//        bannerView.load(GADRequest())
     }
+    
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         bannerView.isHidden = false
     }
@@ -60,6 +64,17 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         }
         else{
             label2.text = value
+        }
+        
+        let save = UserDefaults.standard
+        if save.value(forKey: "Purchase") == nil {
+            bannerView.adUnitID = "ca-app-pub-6997426467599456/7491376826"
+            //bannerView.adUnitID = "ca-app-pub-3940256099942544/6300978111"
+            bannerView.adSize = kGADAdSizeSmartBannerPortrait
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+        } else {
+            bannerView.isHidden = true
         }
     }
     

@@ -46,11 +46,24 @@ class EndViewController: UIViewController, GADBannerViewDelegate, MFMailComposeV
         
         //reference to two functions below
         bannerView.delegate = self
-        bannerView.adUnitID = "ca-app-pub-6997426467599456/7491376826"
-        bannerView.adSize = kGADAdSizeSmartBannerPortrait
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+//        bannerView.adUnitID = "ca-app-pub-6997426467599456/7491376826"
+//        bannerView.adSize = kGADAdSizeSmartBannerPortrait
+//        bannerView.rootViewController = self
+//        bannerView.load(GADRequest())
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let save = UserDefaults.standard
+        if save.value(forKey: "Purchase") == nil {
+            bannerView.adUnitID = "ca-app-pub-6997426467599456/7491376826"
+            bannerView.adSize = kGADAdSizeSmartBannerPortrait
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+        } else {
+            bannerView.isHidden = true
+        }
+    }
+
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         bannerView.isHidden = false
     }
