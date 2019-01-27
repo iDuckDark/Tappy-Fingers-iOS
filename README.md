@@ -1,10 +1,9 @@
 # Tappy-Fingers-iOS
 
+<p align="center">
+<img style="vertical-align:middle" height="15%" width="15%" src="https://github.com/iDuckDark/Tappy-Fingers-iOS/blob/master/Screenshots/Jan%202019%20/rounded/icon.png?raw=true">
 <p>
-<img height="25%" width="25%" src="https://github.com/iDuckDark/Tappy-Fingers-iOS/blob/master/Screenshots/Jan%202019%20/rounded/icon.png?raw=true">
-  A game that requires tapping on the screen as many times you can in 10 seconds with Google Admob
-</p>
-
+A game that requires tapping on the screen as many times you can in 10 seconds with Google Admob
 
 
 <p align="center" float="left">
