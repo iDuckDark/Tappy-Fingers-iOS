@@ -9,7 +9,7 @@
 
 <p align="center" float="left">
   
-  <img height="25%" width="25%" src="https://github.com/iDuckDark/Tappy-Fingers iOS/blob/master/Screenshots/Jan%202019%20/rounded/output-onlinepngtools.png">
+  <img height="25%" width="25%" src="https://github.com/iDuckDark/Tappy-Fingers-iOS/blob/master/Screenshots/Jan%202019%20/rounded/output-onlinepngtools.png?raw=true">
   
   <img height="25%" width="25%" src="https://github.com/iDuckDark/Tappy-Fingers-iOS/blob/master/Screenshots/Jan%202019%20/rounded/output-onlinepngtools%20copy.png?raw=true">
   
