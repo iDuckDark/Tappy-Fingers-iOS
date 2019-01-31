@@ -91,8 +91,8 @@ class EndViewController: UIViewController, GADBannerViewDelegate, MFMailComposeV
             
         }
         else{
-            let alert = UIAlertController(title: "Account Not Logged In", message: "Please log in to your twitter account in Settings ", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "OK ", style: UIAlertActionStyle.default, handler: nil))
+            let alert = UIAlertController(title: "Account Not Logged In", message: "Please log in to your twitter account in Settings ", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK ", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert,animated: true,completion: nil)
         }
         
@@ -111,8 +111,8 @@ class EndViewController: UIViewController, GADBannerViewDelegate, MFMailComposeV
             
         }
         else{
-            let alert = UIAlertController(title: "Accounts ", message: "Please log in to your own email account", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "OK ", style: UIAlertActionStyle.default, handler: nil))
+            let alert = UIAlertController(title: "Accounts ", message: "Please log in to your own email account", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK ", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert,animated: true,completion: nil)
         }
     }
@@ -132,8 +132,8 @@ class EndViewController: UIViewController, GADBannerViewDelegate, MFMailComposeV
             
         }
         else{
-            let alert = UIAlertController(title: "WARNING ", message: "YOU ARE UNABLE TO SEND MESSAGE ON THIS DEVICE!!! ", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "OK ", style: UIAlertActionStyle.default, handler: nil))
+            let alert = UIAlertController(title: "WARNING ", message: "YOU ARE UNABLE TO SEND MESSAGE ON THIS DEVICE!!! ", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK ", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert,animated: true,completion: nil)
         }
         
