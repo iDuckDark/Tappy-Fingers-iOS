@@ -16,7 +16,6 @@
 		595B6E731FF3140C00759928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595B6E711FF3140C00759928 /* Main.storyboard */; };
 		595B6E751FF3140C00759928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595B6E741FF3140C00759928 /* Assets.xcassets */; };
 		595B6E781FF3140C00759928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595B6E761FF3140C00759928 /* LaunchScreen.storyboard */; };
-		5983051421446FFD00C46909 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5983051321446FFD00C46909 /* StoreKit.framework */; };
 		59FC82C91FF475FA0024EC8B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FC82C81FF475FA0024EC8B /* MessageUI.framework */; };
 		59FC82CB1FF490840024EC8B /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC82CA1FF490840024EC8B /* StoreViewController.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +32,6 @@
 		595B6E741FF3140C00759928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		595B6E771FF3140C00759928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		595B6E791FF3140C00759928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5983051321446FFD00C46909 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		59FC82C81FF475FA0024EC8B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		59FC82CA1FF490840024EC8B /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5983051421446FFD00C46909 /* StoreKit.framework in Frameworks */,
 				59FC82C91FF475FA0024EC8B /* MessageUI.framework in Frameworks */,
 				593B09911FF383FE00D8D7BF /* GoogleMobileAds.framework in Frameworks */,
 				593B098F1FF37BFE00D8D7BF /* Social.framework in Frameworks */,
@@ -56,7 +53,6 @@
 		593B098D1FF37BFE00D8D7BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5983051321446FFD00C46909 /* StoreKit.framework */,
 				59FC82C81FF475FA0024EC8B /* MessageUI.framework */,
 				593B09901FF383FE00D8D7BF /* GoogleMobileAds.framework */,
 				593B098E1FF37BFE00D8D7BF /* Social.framework */,
@@ -132,7 +128,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
