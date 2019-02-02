@@ -1,5 +1,5 @@
 # Tappy-Fingers-iOS
-
+iOS AppStore Link: (https://itunes.apple.com/us/app/tappy-fingers/id1435713843)
 <p align="center">
 <img style="vertical-align:middle" height="15%" width="15%" src="https://github.com/iDuckDark/Tappy-Fingers-iOS/blob/master/Screenshots/Jan%202019%20/rounded/icon.png?raw=true">
 <p>
